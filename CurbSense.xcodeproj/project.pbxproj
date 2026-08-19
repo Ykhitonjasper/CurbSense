@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06147AE4AABC235F564E4B22 /* RunbookDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870A5005B1F44DEC8FC8DD03 /* RunbookDetailScreen.swift */; };
+		11F3BBE87BCEF2B745B0A20D /* ObservationGlossaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869E1E9BF891C3D7E9F4F74 /* ObservationGlossaryScreen.swift */; };
+		19CA0A9A5D0F5B121D12C89B /* ActiveStepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B308A022B63A43D05C2A7F /* ActiveStepScreen.swift */; };
+		20CEACA0D14893ABC553D1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894169165A95754ADB91A29F /* Assets.xcassets */; };
+		25A930D2FE8339B1EF01B848 /* Legal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F915DF7DAAA0C87545CC184 /* Legal.swift */; };
+		2A269BD3E6D665FD2664D277 /* NavigationIntegrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */; };
+		4557006BFDEFC43AF8D62C85 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D2243D24B43CC4E3D1C9F /* Persistence.swift */; };
+		45DB948A0EDEE9010A0A2E2C /* RunbookCatalogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB276FF291505560C91797 /* RunbookCatalogScreen.swift */; };
+		4B3631339C2D5D61B988474B /* ActionPackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07F7F78C6B6817793A335A /* ActionPackScreen.swift */; };
+		4DE722CB1105F10808B7A0C7 /* CurbSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */; };
+		514212AFB4C36E9909C52419 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1DA51772477924DFF4F3 /* SeedData.swift */; };
+		557250A52C9E8416F2C911C5 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA36F8A1D1A5F0ECC3F8DF9 /* AppTheme.swift */; };
+		6388F2ED5A47C3A76BDA96E8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3040B8223C0147ED8965C99F /* Protocols.swift */; };
+		7B55051061C7434EF3C656AB /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4470CD025192C36F41E74628 /* RootTabView.swift */; };
+		82877A9186C179D2E8106964 /* Runbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99D58B316B736A3CC3F961 /* Runbook.swift */; };
+		829DCA9C0EB35AD5D13B5A21 /* SmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A593E9E84425680D4CB35D6 /* SmokeUITests.swift */; };
+		851BE773A13D02CA46BAB587 /* RunSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC63701FE4D34D4FAD79A58 /* RunSession.swift */; };
+		8DF255D5B1BE019FDDB09B53 /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06881CFE8F042661831B4DDB /* Providers.swift */; };
+		8FD2AB78DF90E2C746264F38 /* Engines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FCC37767F99D2B1B6AF784 /* Engines.swift */; };
+		91DF617A3050EFF5A7332404 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD380EF406FE8D0886750B07 /* OnboardingScreen.swift */; };
+		9262971756863774B3E24229 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */; };
+		A0F217796E13779A5015D70F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */; };
+		A47E859C16A4A3355031C093 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA31B9023B204E6A6E1CB4B /* AppBackground.swift */; };
+		AA8B3526C3B93E102C45D31D /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5F1D86653D8CF6BFE09DA /* Routes.swift */; };
+		B97F5827B60633F5BAFE4FB9 /* VerdictScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E3AF27DA21841F9184708 /* VerdictScreen.swift */; };
+		BF8A50983140F8CCB7B843F6 /* CurbSenseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */; };
+		C07EF01423AFE06796131AD3 /* HistoryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CBFBA55A2AF5F171842818 /* HistoryDetailScreen.swift */; };
+		C8E5C3FF525B9FC6EC805416 /* DuplicateTitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385FEC36BFFC7E4565D3BD4 /* DuplicateTitleScreen.swift */; };
+		CA1E7A24620420514362B397 /* BranchMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31536148E091ED119F713E9 /* BranchMapScreen.swift */; };
+		CD66FD61BB7823AAAFADD0E3 /* RunHistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24FA9DA51B6770C9074733 /* RunHistoryScreen.swift */; };
+		DC36F2D88503B1C303313EC6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0416D29F9E4A418026FB0 /* Node.swift */; };
+		E725DAF4F9387C4D154A2765 /* DomainTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC258E9075529CF520568AA /* DomainTypes.swift */; };
+		FB22AAF7ABB66764F99BBF57 /* RecoveryLibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE481C124E11C5EC376CFE9 /* RecoveryLibraryScreen.swift */; };
+		FCE23E0D3E7A69CB01807B58 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F128B66C2EF0ED60771C6B /* SettingsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75C1C906314CD7573D7AEA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971035E8F06049ECC17E3E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B26E390730A43ED1FF06B09;
+			remoteInfo = CurbSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06881CFE8F042661831B4DDB /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		0CC63701FE4D34D4FAD79A58 /* RunSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSession.swift; sourceTree = "<group>"; };
+		0DA5F1D86653D8CF6BFE09DA /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		2AC258E9075529CF520568AA /* DomainTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTypes.swift; sourceTree = "<group>"; };
+		2EE481C124E11C5EC376CFE9 /* RecoveryLibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryLibraryScreen.swift; sourceTree = "<group>"; };
+		3040B8223C0147ED8965C99F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		4470CD025192C36F41E74628 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		59CBFBA55A2AF5F171842818 /* HistoryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailScreen.swift; sourceTree = "<group>"; };
+		64FB276FF291505560C91797 /* RunbookCatalogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookCatalogScreen.swift; sourceTree = "<group>"; };
+		66B308A022B63A43D05C2A7F /* ActiveStepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveStepScreen.swift; sourceTree = "<group>"; };
+		6A593E9E84425680D4CB35D6 /* SmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeUITests.swift; sourceTree = "<group>"; };
+		6A99D58B316B736A3CC3F961 /* Runbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runbook.swift; sourceTree = "<group>"; };
+		870A5005B1F44DEC8FC8DD03 /* RunbookDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookDetailScreen.swift; sourceTree = "<group>"; };
+		894169165A95754ADB91A29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B24FA9DA51B6770C9074733 /* RunHistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryScreen.swift; sourceTree = "<group>"; };
+		8F8D2243D24B43CC4E3D1C9F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8F915DF7DAAA0C87545CC184 /* Legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.swift; sourceTree = "<group>"; };
+		9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurbSenseStore.swift; sourceTree = "<group>"; };
+		96FCC37767F99D2B1B6AF784 /* Engines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engines.swift; sourceTree = "<group>"; };
+		9AA36F8A1D1A5F0ECC3F8DF9 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A31F1DA51772477924DFF4F3 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		AA07F7F78C6B6817793A335A /* ActionPackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPackScreen.swift; sourceTree = "<group>"; };
+		AEA31B9023B204E6A6E1CB4B /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		B31536148E091ED119F713E9 /* BranchMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchMapScreen.swift; sourceTree = "<group>"; };
+		B8F128B66C2EF0ED60771C6B /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		BD380EF406FE8D0886750B07 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		C6B88A868BAE92123D51C41F /* CurbSenseUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CurbSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03E3AF27DA21841F9184708 /* VerdictScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdictScreen.swift; sourceTree = "<group>"; };
+		D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurbSenseApp.swift; sourceTree = "<group>"; };
+		D1E0416D29F9E4A418026FB0 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationIntegrator.swift; sourceTree = "<group>"; };
+		E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F385FEC36BFFC7E4565D3BD4 /* DuplicateTitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateTitleScreen.swift; sourceTree = "<group>"; };
+		F423191A4B888F3CE6D05B2B /* CurbSense.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CurbSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F869E1E9BF891C3D7E9F4F74 /* ObservationGlossaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationGlossaryScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		059C0E341C377EE19EA607AC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B8F128B66C2EF0ED60771C6B /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1E371D2D869BACFD7A4CD5B1 = {
+			isa = PBXGroup;
+			children = (
+				479E32B38B2BC78142520E9F /* CurbSense */,
+				A6B6013B6BEADC648051DFAE /* CurbSenseUITests */,
+				D4E47F907868B1038A13603E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21CDCC38F2C918CBE96218D9 /* DuplicateTitle */ = {
+			isa = PBXGroup;
+			children = (
+				F385FEC36BFFC7E4565D3BD4 /* DuplicateTitleScreen.swift */,
+			);
+			path = DuplicateTitle;
+			sourceTree = "<group>";
+		};
+		34BAE2935C5A2889702ACCAE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				76B66D55DBF6F6F2947093B7 /* ActionPack */,
+				D6E61038D06D9C132F3EFBED /* ActiveStep */,
+				4C98112FAB93E8BACFBA833B /* BranchMap */,
+				21CDCC38F2C918CBE96218D9 /* DuplicateTitle */,
+				3C953E645D1E3AC229E8E3A0 /* HistoryDetail */,
+				694447C7D49C068973AE9439 /* ObservationGlossary */,
+				E6F934E3292A8B017C433C6E /* Onboarding */,
+				418DF2809EAC1778805D7E2E /* RecoveryLibrary */,
+				8F4D90EDAB157E5D21901EF5 /* RunbookCatalog */,
+				E7667022FFA68B3D46BC51EA /* RunbookDetail */,
+				D54CF5B0FCD82A958DA93A19 /* RunHistory */,
+				059C0E341C377EE19EA607AC /* Settings */,
+				4EB938EEAFFFA85DD1635231 /* Verdict */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3C953E645D1E3AC229E8E3A0 /* HistoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				59CBFBA55A2AF5F171842818 /* HistoryDetailScreen.swift */,
+			);
+			path = HistoryDetail;
+			sourceTree = "<group>";
+		};
+		418DF2809EAC1778805D7E2E /* RecoveryLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2EE481C124E11C5EC376CFE9 /* RecoveryLibraryScreen.swift */,
+			);
+			path = RecoveryLibrary;
+			sourceTree = "<group>";
+		};
+		436EF4EF601F3CAC14474153 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AEA31B9023B204E6A6E1CB4B /* AppBackground.swift */,
+				9AA36F8A1D1A5F0ECC3F8DF9 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		479E32B38B2BC78142520E9F /* CurbSense */ = {
+			isa = PBXGroup;
+			children = (
+				894169165A95754ADB91A29F /* Assets.xcassets */,
+				8F915DF7DAAA0C87545CC184 /* Legal.swift */,
+				E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */,
+				CCDA8C06A5F87E7685C1E7C8 /* App */,
+				34BAE2935C5A2889702ACCAE /* Features */,
+				90F62B62B230B9ED8EC1B7FD /* Kernel */,
+				436EF4EF601F3CAC14474153 /* Theme */,
+			);
+			path = CurbSense;
+			sourceTree = "<group>";
+		};
+		4C98112FAB93E8BACFBA833B /* BranchMap */ = {
+			isa = PBXGroup;
+			children = (
+				B31536148E091ED119F713E9 /* BranchMapScreen.swift */,
+			);
+			path = BranchMap;
+			sourceTree = "<group>";
+		};
+		4EB938EEAFFFA85DD1635231 /* Verdict */ = {
+			isa = PBXGroup;
+			children = (
+				D03E3AF27DA21841F9184708 /* VerdictScreen.swift */,
+			);
+			path = Verdict;
+			sourceTree = "<group>";
+		};
+		694447C7D49C068973AE9439 /* ObservationGlossary */ = {
+			isa = PBXGroup;
+			children = (
+				F869E1E9BF891C3D7E9F4F74 /* ObservationGlossaryScreen.swift */,
+			);
+			path = ObservationGlossary;
+			sourceTree = "<group>";
+		};
+		76B66D55DBF6F6F2947093B7 /* ActionPack */ = {
+			isa = PBXGroup;
+			children = (
+				AA07F7F78C6B6817793A335A /* ActionPackScreen.swift */,
+			);
+			path = ActionPack;
+			sourceTree = "<group>";
+		};
+		8F4D90EDAB157E5D21901EF5 /* RunbookCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				64FB276FF291505560C91797 /* RunbookCatalogScreen.swift */,
+			);
+			path = RunbookCatalog;
+			sourceTree = "<group>";
+		};
+		90F62B62B230B9ED8EC1B7FD /* Kernel */ = {
+			isa = PBXGroup;
+			children = (
+				1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */,
+				9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */,
+				2AC258E9075529CF520568AA /* DomainTypes.swift */,
+				96FCC37767F99D2B1B6AF784 /* Engines.swift */,
+				D1E0416D29F9E4A418026FB0 /* Node.swift */,
+				8F8D2243D24B43CC4E3D1C9F /* Persistence.swift */,
+				3040B8223C0147ED8965C99F /* Protocols.swift */,
+				06881CFE8F042661831B4DDB /* Providers.swift */,
+				0DA5F1D86653D8CF6BFE09DA /* Routes.swift */,
+				6A99D58B316B736A3CC3F961 /* Runbook.swift */,
+				0CC63701FE4D34D4FAD79A58 /* RunSession.swift */,
+				A31F1DA51772477924DFF4F3 /* SeedData.swift */,
+			);
+			path = Kernel;
+			sourceTree = "<group>";
+		};
+		A6B6013B6BEADC648051DFAE /* CurbSenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A593E9E84425680D4CB35D6 /* SmokeUITests.swift */,
+			);
+			path = CurbSenseUITests;
+			sourceTree = "<group>";
+		};
+		CCDA8C06A5F87E7685C1E7C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */,
+				D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */,
+				4470CD025192C36F41E74628 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D4E47F907868B1038A13603E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F423191A4B888F3CE6D05B2B /* CurbSense.app */,
+				C6B88A868BAE92123D51C41F /* CurbSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54CF5B0FCD82A958DA93A19 /* RunHistory */ = {
+			isa = PBXGroup;
+			children = (
+				8B24FA9DA51B6770C9074733 /* RunHistoryScreen.swift */,
+			);
+			path = RunHistory;
+			sourceTree = "<group>";
+		};
+		D6E61038D06D9C132F3EFBED /* ActiveStep */ = {
+			isa = PBXGroup;
+			children = (
+				66B308A022B63A43D05C2A7F /* ActiveStepScreen.swift */,
+			);
+			path = ActiveStep;
+			sourceTree = "<group>";
+		};
+		E6F934E3292A8B017C433C6E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BD380EF406FE8D0886750B07 /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E7667022FFA68B3D46BC51EA /* RunbookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				870A5005B1F44DEC8FC8DD03 /* RunbookDetailScreen.swift */,
+			);
+			path = RunbookDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B26E390730A43ED1FF06B09 /* CurbSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B84DCB8C9EB0742CD7683C1 /* Build configuration list for PBXNativeTarget "CurbSense" */;
+			buildPhases = (
+				67A24B35880CCEC0BC45C451 /* Sources */,
+				D5E02C99BDBA81AE12917AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurbSense;
+			packageProductDependencies = (
+			);
+			productName = CurbSense;
+			productReference = F423191A4B888F3CE6D05B2B /* CurbSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205FB0BF29A2AA4A6149F256 /* CurbSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C9FDA7DF69E57644863FC /* Build configuration list for PBXNativeTarget "CurbSenseUITests" */;
+			buildPhases = (
+				4667A9BF495C6D69DA174DB2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003073C24CEA76662A9BDF22 /* PBXTargetDependency */,
+			);
+			name = CurbSenseUITests;
+			packageProductDependencies = (
+			);
+			productName = CurbSenseUITests;
+			productReference = C6B88A868BAE92123D51C41F /* CurbSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971035E8F06049ECC17E3E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1B26E390730A43ED1FF06B09 = {
+						DevelopmentTeam = 99R57RR8H2;
+						ProvisioningStyle = Automatic;
+					};
+					205FB0BF29A2AA4A6149F256 = {
+						DevelopmentTeam = 99R57RR8H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B26E390730A43ED1FF06B09;
+					};
+				};
+			};
+			buildConfigurationList = 301801F7C86790E16879CD54 /* Build configuration list for PBXProject "CurbSense" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1E371D2D869BACFD7A4CD5B1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D4E47F907868B1038A13603E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B26E390730A43ED1FF06B09 /* CurbSense */,
+				205FB0BF29A2AA4A6149F256 /* CurbSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E02C99BDBA81AE12917AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEACA0D14893ABC553D1C4 /* Assets.xcassets in Resources */,
+				A0F217796E13779A5015D70F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4667A9BF495C6D69DA174DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829DCA9C0EB35AD5D13B5A21 /* SmokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A24B35880CCEC0BC45C451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3631339C2D5D61B988474B /* ActionPackScreen.swift in Sources */,
+				19CA0A9A5D0F5B121D12C89B /* ActiveStepScreen.swift in Sources */,
+				A47E859C16A4A3355031C093 /* AppBackground.swift in Sources */,
+				9262971756863774B3E24229 /* AppDependencies.swift in Sources */,
+				557250A52C9E8416F2C911C5 /* AppTheme.swift in Sources */,
+				CA1E7A24620420514362B397 /* BranchMapScreen.swift in Sources */,
+				4DE722CB1105F10808B7A0C7 /* CurbSenseApp.swift in Sources */,
+				BF8A50983140F8CCB7B843F6 /* CurbSenseStore.swift in Sources */,
+				E725DAF4F9387C4D154A2765 /* DomainTypes.swift in Sources */,
+				C8E5C3FF525B9FC6EC805416 /* DuplicateTitleScreen.swift in Sources */,
+				8FD2AB78DF90E2C746264F38 /* Engines.swift in Sources */,
+				C07EF01423AFE06796131AD3 /* HistoryDetailScreen.swift in Sources */,
+				25A930D2FE8339B1EF01B848 /* Legal.swift in Sources */,
+				2A269BD3E6D665FD2664D277 /* NavigationIntegrator.swift in Sources */,
+				DC36F2D88503B1C303313EC6 /* Node.swift in Sources */,
+				11F3BBE87BCEF2B745B0A20D /* ObservationGlossaryScreen.swift in Sources */,
+				91DF617A3050EFF5A7332404 /* OnboardingScreen.swift in Sources */,
+				4557006BFDEFC43AF8D62C85 /* Persistence.swift in Sources */,
+				6388F2ED5A47C3A76BDA96E8 /* Protocols.swift in Sources */,
+				8DF255D5B1BE019FDDB09B53 /* Providers.swift in Sources */,
+				FB22AAF7ABB66764F99BBF57 /* RecoveryLibraryScreen.swift in Sources */,
+				7B55051061C7434EF3C656AB /* RootTabView.swift in Sources */,
+				AA8B3526C3B93E102C45D31D /* Routes.swift in Sources */,
+				CD66FD61BB7823AAAFADD0E3 /* RunHistoryScreen.swift in Sources */,
+				851BE773A13D02CA46BAB587 /* RunSession.swift in Sources */,
+				82877A9186C179D2E8106964 /* Runbook.swift in Sources */,
+				45DB948A0EDEE9010A0A2E2C /* RunbookCatalogScreen.swift in Sources */,
+				06147AE4AABC235F564E4B22 /* RunbookDetailScreen.swift in Sources */,
+				514212AFB4C36E9909C52419 /* SeedData.swift in Sources */,
+				FCE23E0D3E7A69CB01807B58 /* SettingsScreen.swift in Sources */,
+				B97F5827B60633F5BAFE4FB9 /* VerdictScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003073C24CEA76662A9BDF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B26E390730A43ED1FF06B09 /* CurbSense */;
+			targetProxy = 75C1C906314CD7573D7AEA90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042C49F6B4290FDAB1AAA60A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/CurbSense.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				INFOPLIST_FILE = CurbSense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CurbSense;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense;
+				PRODUCT_DISPLAY_NAME = CurbSense;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0FB8FBDC896C2BF771EEB65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurbSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense;
+				PRODUCT_NAME = CurbSense;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37716B7416D7FA6BD262F3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CurbSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense;
+				PRODUCT_NAME = CurbSense;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62723DF1EB464C57FCD90A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/CurbSense.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				INFOPLIST_FILE = CurbSense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CurbSense;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense;
+				PRODUCT_DISPLAY_NAME = CurbSense;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A3E82114C610C57B710E2033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense.uitests;
+				PRODUCT_MODULE_NAME = CurbSenseUITests;
+				PRODUCT_NAME = CurbSenseUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurbSense;
+			};
+			name = Release;
+		};
+		F6D540B6D782D204D58FDB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense.uitests;
+				PRODUCT_MODULE_NAME = CurbSenseUITests;
+				PRODUCT_NAME = CurbSenseUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CurbSense;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301801F7C86790E16879CD54 /* Build configuration list for PBXProject "CurbSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37716B7416D7FA6BD262F3FE /* Debug */,
+				0FB8FBDC896C2BF771EEB65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		533C9FDA7DF69E57644863FC /* Build configuration list for PBXNativeTarget "CurbSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D540B6D782D204D58FDB75 /* Debug */,
+				A3E82114C610C57B710E2033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B84DCB8C9EB0742CD7683C1 /* Build configuration list for PBXNativeTarget "CurbSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62723DF1EB464C57FCD90A13 /* Debug */,
+				042C49F6B4290FDAB1AAA60A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971035E8F06049ECC17E3E35 /* Project object */;
+}

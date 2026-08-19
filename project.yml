@@ -1,0 +1,78 @@
+name: CurbSense
+options:
+  bundleIdPrefix: com.margleun
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_FILE: CurbSense/Info.plist
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    PRODUCT_BUNDLE_IDENTIFIER: com.margleun.curbsense
+    PRODUCT_NAME: CurbSense
+    DEVELOPMENT_TEAM: "99R57RR8H2"
+    CODE_SIGN_STYLE: Automatic
+    SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+    SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+    SUPPORTS_MACCATALYST: NO
+targets:
+  CurbSense:
+    type: application
+    platform: iOS
+    sources:
+      - path: CurbSense
+        excludes:
+          - Info.plist
+    resources:
+      - path: CurbSense/Assets.xcassets
+      - path: CurbSense/PrivacyInfo.xcprivacy
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_KEY_CFBundleDisplayName: CurbSense
+        PRODUCT_BUNDLE_IDENTIFIER: com.margleun.curbsense
+        PRODUCT_DISPLAY_NAME: CurbSense
+        CODE_SIGN_ENTITLEMENTS: Config/CurbSense.entitlements
+        DEVELOPMENT_TEAM: "99R57RR8H2"
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_MACCATALYST: NO
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+  CurbSenseUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: CurbSenseUITests
+    dependencies:
+      - target: CurbSense
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: ""
+        PRODUCT_BUNDLE_IDENTIFIER: com.margleun.curbsense.uitests
+        PRODUCT_NAME: CurbSenseUITests
+        PRODUCT_MODULE_NAME: CurbSenseUITests
+        DEVELOPMENT_TEAM: "99R57RR8H2"
+        TEST_TARGET_NAME: CurbSense
+        CODE_SIGN_ENTITLEMENTS: ""
+
+schemes:
+  CurbSense:
+    build:
+      targets:
+        CurbSense: all
+        CurbSenseUITests: [test]
+    test:
+      targets:
+        - CurbSenseUITests
