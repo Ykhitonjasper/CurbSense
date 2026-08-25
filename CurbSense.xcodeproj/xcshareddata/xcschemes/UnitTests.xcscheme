@@ -29,9 +29,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "205FB0BF29A2AA4A6149F256"
-               BuildableName = "CurbSenseUITests.xctest"
-               BlueprintName = "CurbSenseUITests"
+               BlueprintIdentifier = "6E24A983C0D26D5197FFE2B3"
+               BuildableName = "CurbSenseTests.xctest"
+               BlueprintName = "CurbSenseTests"
                ReferencedContainer = "container:CurbSense.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,7 +41,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "NO"
+      shouldUseLaunchSchemeArgsEnv = "YES"
       onlyGenerateCoverageForSpecifiedTargets = "NO">
       <MacroExpansion>
          <BuildableReference
@@ -58,18 +58,14 @@
             parallelizable = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "205FB0BF29A2AA4A6149F256"
-               BuildableName = "CurbSenseUITests.xctest"
-               BlueprintName = "CurbSenseUITests"
+               BlueprintIdentifier = "6E24A983C0D26D5197FFE2B3"
+               BuildableName = "CurbSenseTests.xctest"
+               BlueprintName = "CurbSenseTests"
                ReferencedContainer = "container:CurbSense.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <CommandLineArguments>
-         <CommandLineArgument
-            argument = "UI-Testing"
-            isEnabled = "YES">
-         </CommandLineArgument>
       </CommandLineArguments>
    </TestAction>
    <LaunchAction

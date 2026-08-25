@@ -14,14 +14,8 @@ struct CurbSenseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Group {
-                if store.hasCompletedOnboarding {
-                    RootTabView(dependencies: dependencies)
-                } else {
-                    OnboardingScreen()
-                }
-            }
-            .environment(store)
+            RootView(dependencies: dependencies)
+                .environment(store)
         }
     }
 }

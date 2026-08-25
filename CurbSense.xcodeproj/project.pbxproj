@@ -12,33 +12,49 @@
 		19CA0A9A5D0F5B121D12C89B /* ActiveStepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B308A022B63A43D05C2A7F /* ActiveStepScreen.swift */; };
 		20CEACA0D14893ABC553D1C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894169165A95754ADB91A29F /* Assets.xcassets */; };
 		25A930D2FE8339B1EF01B848 /* Legal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F915DF7DAAA0C87545CC184 /* Legal.swift */; };
+		2851AAB73E296C373878297C /* AnalyticsDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F14EF3E056F4A4CD88CF92 /* AnalyticsDependency.swift */; };
+		29C5EC7E9F412EAECBD7E9E4 /* StartupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E006AC6BCF890E45CBF75 /* StartupRouter.swift */; };
 		2A269BD3E6D665FD2664D277 /* NavigationIntegrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */; };
+		351F9FA5E93E216FFE1ED7E1 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 5231D498DE48D28E204843D6 /* FirebaseRemoteConfig */; };
+		3D55FF91134868A1AFC0AB75 /* ExperimentWebViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB70AA4B8B7AE7F9A44F9E /* ExperimentWebViewWrapper.swift */; };
+		434501057A5F6EE3DC364193 /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F566DB974C7506F7B67B3A0 /* AdServices.framework */; };
 		4557006BFDEFC43AF8D62C85 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D2243D24B43CC4E3D1C9F /* Persistence.swift */; };
 		45DB948A0EDEE9010A0A2E2C /* RunbookCatalogScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB276FF291505560C91797 /* RunbookCatalogScreen.swift */; };
+		465EEDAE8C17CF8E9B9B2B59 /* CurbSenseWarmupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DC9D9C97B1A9FEC56FCC0 /* CurbSenseWarmupView.swift */; };
 		4B3631339C2D5D61B988474B /* ActionPackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07F7F78C6B6817793A335A /* ActionPackScreen.swift */; };
 		4DE722CB1105F10808B7A0C7 /* CurbSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */; };
 		514212AFB4C36E9909C52419 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1DA51772477924DFF4F3 /* SeedData.swift */; };
 		557250A52C9E8416F2C911C5 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA36F8A1D1A5F0ECC3F8DF9 /* AppTheme.swift */; };
 		6388F2ED5A47C3A76BDA96E8 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3040B8223C0147ED8965C99F /* Protocols.swift */; };
+		77FB280D1E245D61A93402DE /* ExperimentWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2488CEC21A5912A03FDFF985 /* ExperimentWebView.swift */; };
 		7B55051061C7434EF3C656AB /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4470CD025192C36F41E74628 /* RootTabView.swift */; };
 		82877A9186C179D2E8106964 /* Runbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99D58B316B736A3CC3F961 /* Runbook.swift */; };
 		829DCA9C0EB35AD5D13B5A21 /* SmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A593E9E84425680D4CB35D6 /* SmokeUITests.swift */; };
+		84A30C7F339C3903A0E8538F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D86FF576B3EA86D51A1BD79 /* Alamofire */; };
 		851BE773A13D02CA46BAB587 /* RunSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC63701FE4D34D4FAD79A58 /* RunSession.swift */; };
+		8D8CEF6B706D8860E7303942 /* StartupRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E790FFBD5D82F2C0C2E603 /* StartupRouterTests.swift */; };
 		8DF255D5B1BE019FDDB09B53 /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06881CFE8F042661831B4DDB /* Providers.swift */; };
 		8FD2AB78DF90E2C746264F38 /* Engines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FCC37767F99D2B1B6AF784 /* Engines.swift */; };
+		8FE9AEBC6202AA87AB0096DA /* AnalyticsBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F2F13C2F035672045E430 /* AnalyticsBootstrap.swift */; };
 		91DF617A3050EFF5A7332404 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD380EF406FE8D0886750B07 /* OnboardingScreen.swift */; };
+		925CAF8D2B7B2660A62AC5C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 65E09BDDEC48BA14267A106E /* FirebaseAnalytics */; };
 		9262971756863774B3E24229 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */; };
+		96DF0BB20464183DFC878DD3 /* InstallAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E55F14F387B3FC526C9A4B3 /* InstallAttribution.swift */; };
+		9C93ACA190B3FAB4F69A4154 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AE1C8BCDD72406D8B6BEC87 /* GoogleService-Info.plist */; };
 		A0F217796E13779A5015D70F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */; };
 		A47E859C16A4A3355031C093 /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA31B9023B204E6A6E1CB4B /* AppBackground.swift */; };
 		AA8B3526C3B93E102C45D31D /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5F1D86653D8CF6BFE09DA /* Routes.swift */; };
 		B97F5827B60633F5BAFE4FB9 /* VerdictScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E3AF27DA21841F9184708 /* VerdictScreen.swift */; };
 		BF8A50983140F8CCB7B843F6 /* CurbSenseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */; };
 		C07EF01423AFE06796131AD3 /* HistoryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CBFBA55A2AF5F171842818 /* HistoryDetailScreen.swift */; };
+		C4479653C788E09F48BB6453 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DA6A2811DE7A2FAD65012F /* RootView.swift */; };
 		C8E5C3FF525B9FC6EC805416 /* DuplicateTitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F385FEC36BFFC7E4565D3BD4 /* DuplicateTitleScreen.swift */; };
 		CA1E7A24620420514362B397 /* BranchMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31536148E091ED119F713E9 /* BranchMapScreen.swift */; };
 		CD66FD61BB7823AAAFADD0E3 /* RunHistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24FA9DA51B6770C9074733 /* RunHistoryScreen.swift */; };
 		DC36F2D88503B1C303313EC6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0416D29F9E4A418026FB0 /* Node.swift */; };
 		E725DAF4F9387C4D154A2765 /* DomainTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC258E9075529CF520568AA /* DomainTypes.swift */; };
+		F4725CB3D102EC5BC82B97C3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A67937613BA2BEA423F0A5A /* AnalyticsCoordinator.swift */; };
+		F868F62D68FA5B1E4962C20A /* AnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF18524C3563D691FB221B4 /* AnalyticsTracker.swift */; };
 		FB22AAF7ABB66764F99BBF57 /* RecoveryLibraryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE481C124E11C5EC376CFE9 /* RecoveryLibraryScreen.swift */; };
 		FCE23E0D3E7A69CB01807B58 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F128B66C2EF0ED60771C6B /* SettingsScreen.swift */; };
 /* End PBXBuildFile section */
@@ -51,30 +67,49 @@
 			remoteGlobalIDString = 1B26E390730A43ED1FF06B09;
 			remoteInfo = CurbSense;
 		};
+		98E31A04831F25821A54F673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971035E8F06049ECC17E3E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B26E390730A43ED1FF06B09;
+			remoteInfo = CurbSense;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F14EF3E056F4A4CD88CF92 /* AnalyticsDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsDependency.swift; sourceTree = "<group>"; };
 		06881CFE8F042661831B4DDB /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
 		0CC63701FE4D34D4FAD79A58 /* RunSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSession.swift; sourceTree = "<group>"; };
 		0DA5F1D86653D8CF6BFE09DA /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
 		1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		20DA6A2811DE7A2FAD65012F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2488CEC21A5912A03FDFF985 /* ExperimentWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentWebView.swift; sourceTree = "<group>"; };
 		2AC258E9075529CF520568AA /* DomainTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTypes.swift; sourceTree = "<group>"; };
 		2EE481C124E11C5EC376CFE9 /* RecoveryLibraryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryLibraryScreen.swift; sourceTree = "<group>"; };
+		2F566DB974C7506F7B67B3A0 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
 		3040B8223C0147ED8965C99F /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		4470CD025192C36F41E74628 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		4A67937613BA2BEA423F0A5A /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		59CBFBA55A2AF5F171842818 /* HistoryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailScreen.swift; sourceTree = "<group>"; };
+		5A6E006AC6BCF890E45CBF75 /* StartupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupRouter.swift; sourceTree = "<group>"; };
 		64FB276FF291505560C91797 /* RunbookCatalogScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookCatalogScreen.swift; sourceTree = "<group>"; };
 		66B308A022B63A43D05C2A7F /* ActiveStepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveStepScreen.swift; sourceTree = "<group>"; };
 		6A593E9E84425680D4CB35D6 /* SmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeUITests.swift; sourceTree = "<group>"; };
 		6A99D58B316B736A3CC3F961 /* Runbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runbook.swift; sourceTree = "<group>"; };
+		7CF18524C3563D691FB221B4 /* AnalyticsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTracker.swift; sourceTree = "<group>"; };
+		85E790FFBD5D82F2C0C2E603 /* StartupRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupRouterTests.swift; sourceTree = "<group>"; };
 		870A5005B1F44DEC8FC8DD03 /* RunbookDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunbookDetailScreen.swift; sourceTree = "<group>"; };
 		894169165A95754ADB91A29F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ADB70AA4B8B7AE7F9A44F9E /* ExperimentWebViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentWebViewWrapper.swift; sourceTree = "<group>"; };
+		8AE1C8BCDD72406D8B6BEC87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B24FA9DA51B6770C9074733 /* RunHistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryScreen.swift; sourceTree = "<group>"; };
 		8F8D2243D24B43CC4E3D1C9F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8F915DF7DAAA0C87545CC184 /* Legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.swift; sourceTree = "<group>"; };
 		9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurbSenseStore.swift; sourceTree = "<group>"; };
 		96FCC37767F99D2B1B6AF784 /* Engines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engines.swift; sourceTree = "<group>"; };
+		9A0DC9D9C97B1A9FEC56FCC0 /* CurbSenseWarmupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurbSenseWarmupView.swift; sourceTree = "<group>"; };
 		9AA36F8A1D1A5F0ECC3F8DF9 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		9E55F14F387B3FC526C9A4B3 /* InstallAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallAttribution.swift; sourceTree = "<group>"; };
 		A31F1DA51772477924DFF4F3 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
 		AA07F7F78C6B6817793A335A /* ActionPackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPackScreen.swift; sourceTree = "<group>"; };
 		AEA31B9023B204E6A6E1CB4B /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
@@ -85,14 +120,38 @@
 		D03E3AF27DA21841F9184708 /* VerdictScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerdictScreen.swift; sourceTree = "<group>"; };
 		D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurbSenseApp.swift; sourceTree = "<group>"; };
 		D1E0416D29F9E4A418026FB0 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		D329F62662AA967B635BB976 /* CurbSenseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CurbSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationIntegrator.swift; sourceTree = "<group>"; };
 		E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EF6F2F13C2F035672045E430 /* AnalyticsBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsBootstrap.swift; sourceTree = "<group>"; };
 		F385FEC36BFFC7E4565D3BD4 /* DuplicateTitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateTitleScreen.swift; sourceTree = "<group>"; };
 		F423191A4B888F3CE6D05B2B /* CurbSense.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CurbSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F869E1E9BF891C3D7E9F4F74 /* ObservationGlossaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationGlossaryScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		4CA859023C4F7F24FAC33B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A30C7F339C3903A0E8538F /* Alamofire in Frameworks */,
+				351F9FA5E93E216FFE1ED7E1 /* FirebaseRemoteConfig in Frameworks */,
+				925CAF8D2B7B2660A62AC5C2 /* FirebaseAnalytics in Frameworks */,
+				434501057A5F6EE3DC364193 /* AdServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		01044F71FE14C03EDFDFD4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F566DB974C7506F7B67B3A0 /* AdServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		059C0E341C377EE19EA607AC /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				479E32B38B2BC78142520E9F /* CurbSense */,
+				25AB2880BC9FF66421EE7495 /* CurbSenseTests */,
 				A6B6013B6BEADC648051DFAE /* CurbSenseUITests */,
+				01044F71FE14C03EDFDFD4D0 /* Frameworks */,
 				D4E47F907868B1038A13603E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,11 +179,20 @@
 			path = DuplicateTitle;
 			sourceTree = "<group>";
 		};
+		25AB2880BC9FF66421EE7495 /* CurbSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB0B9C790A46806FEF111C12 /* ASOFlow */,
+			);
+			path = CurbSenseTests;
+			sourceTree = "<group>";
+		};
 		34BAE2935C5A2889702ACCAE /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				76B66D55DBF6F6F2947093B7 /* ActionPack */,
 				D6E61038D06D9C132F3EFBED /* ActiveStep */,
+				5332F04778682EDDFA142DD2 /* ASOFlow */,
 				4C98112FAB93E8BACFBA833B /* BranchMap */,
 				21CDCC38F2C918CBE96218D9 /* DuplicateTitle */,
 				3C953E645D1E3AC229E8E3A0 /* HistoryDetail */,
@@ -167,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				894169165A95754ADB91A29F /* Assets.xcassets */,
+				8AE1C8BCDD72406D8B6BEC87 /* GoogleService-Info.plist */,
 				8F915DF7DAAA0C87545CC184 /* Legal.swift */,
 				E21B17ACAA184788C62793A7 /* PrivacyInfo.xcprivacy */,
 				CCDA8C06A5F87E7685C1E7C8 /* App */,
@@ -191,6 +262,20 @@
 				D03E3AF27DA21841F9184708 /* VerdictScreen.swift */,
 			);
 			path = Verdict;
+			sourceTree = "<group>";
+		};
+		5332F04778682EDDFA142DD2 /* ASOFlow */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F2F13C2F035672045E430 /* AnalyticsBootstrap.swift */,
+				4A67937613BA2BEA423F0A5A /* AnalyticsCoordinator.swift */,
+				7CF18524C3563D691FB221B4 /* AnalyticsTracker.swift */,
+				2488CEC21A5912A03FDFF985 /* ExperimentWebView.swift */,
+				8ADB70AA4B8B7AE7F9A44F9E /* ExperimentWebViewWrapper.swift */,
+				9E55F14F387B3FC526C9A4B3 /* InstallAttribution.swift */,
+				5A6E006AC6BCF890E45CBF75 /* StartupRouter.swift */,
+			);
+			path = ASOFlow;
 			sourceTree = "<group>";
 		};
 		694447C7D49C068973AE9439 /* ObservationGlossary */ = {
@@ -220,6 +305,7 @@
 		90F62B62B230B9ED8EC1B7FD /* Kernel */ = {
 			isa = PBXGroup;
 			children = (
+				00F14EF3E056F4A4CD88CF92 /* AnalyticsDependency.swift */,
 				1E20198BB0A76CA9FF344BAE /* AppDependencies.swift */,
 				9020D3BCB85969E01FFDADFC /* CurbSenseStore.swift */,
 				2AC258E9075529CF520568AA /* DomainTypes.swift */,
@@ -248,8 +334,10 @@
 			isa = PBXGroup;
 			children = (
 				D1D0631BDD45831BE00302CD /* CurbSenseApp.swift */,
+				9A0DC9D9C97B1A9FEC56FCC0 /* CurbSenseWarmupView.swift */,
 				D43ECB880D2C5E1F6B722069 /* NavigationIntegrator.swift */,
 				4470CD025192C36F41E74628 /* RootTabView.swift */,
+				20DA6A2811DE7A2FAD65012F /* RootView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -258,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				F423191A4B888F3CE6D05B2B /* CurbSense.app */,
+				D329F62662AA967B635BB976 /* CurbSenseTests.xctest */,
 				C6B88A868BAE92123D51C41F /* CurbSenseUITests.xctest */,
 			);
 			name = Products;
@@ -295,6 +384,14 @@
 			path = RunbookDetail;
 			sourceTree = "<group>";
 		};
+		FB0B9C790A46806FEF111C12 /* ASOFlow */ = {
+			isa = PBXGroup;
+			children = (
+				85E790FFBD5D82F2C0C2E603 /* StartupRouterTests.swift */,
+			);
+			path = ASOFlow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,6 +401,7 @@
 			buildPhases = (
 				67A24B35880CCEC0BC45C451 /* Sources */,
 				D5E02C99BDBA81AE12917AF8 /* Resources */,
+				4CA859023C4F7F24FAC33B82 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +409,9 @@
 			);
 			name = CurbSense;
 			packageProductDependencies = (
+				3D86FF576B3EA86D51A1BD79 /* Alamofire */,
+				5231D498DE48D28E204843D6 /* FirebaseRemoteConfig */,
+				65E09BDDEC48BA14267A106E /* FirebaseAnalytics */,
 			);
 			productName = CurbSense;
 			productReference = F423191A4B888F3CE6D05B2B /* CurbSense.app */;
@@ -334,6 +435,24 @@
 			productReference = C6B88A868BAE92123D51C41F /* CurbSenseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6E24A983C0D26D5197FFE2B3 /* CurbSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748A14CD2C8557BE64F2F173 /* Build configuration list for PBXNativeTarget "CurbSenseTests" */;
+			buildPhases = (
+				6CA1289CE1877CB007BB38D7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3199421F68F064D534BF7138 /* PBXTargetDependency */,
+			);
+			name = CurbSenseTests;
+			packageProductDependencies = (
+			);
+			productName = CurbSenseTests;
+			productReference = D329F62662AA967B635BB976 /* CurbSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -352,6 +471,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1B26E390730A43ED1FF06B09;
 					};
+					6E24A983C0D26D5197FFE2B3 = {
+						DevelopmentTeam = 99R57RR8H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B26E390730A43ED1FF06B09;
+					};
 				};
 			};
 			buildConfigurationList = 301801F7C86790E16879CD54 /* Build configuration list for PBXProject "CurbSense" */;
@@ -363,12 +487,17 @@
 			);
 			mainGroup = 1E371D2D869BACFD7A4CD5B1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				16BDDE5699125DC0E6FE3C3E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				277D6B8485BA815703B634FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D4E47F907868B1038A13603E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1B26E390730A43ED1FF06B09 /* CurbSense */,
+				6E24A983C0D26D5197FFE2B3 /* CurbSenseTests */,
 				205FB0BF29A2AA4A6149F256 /* CurbSenseUITests */,
 			);
 		};
@@ -380,6 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CEACA0D14893ABC553D1C4 /* Assets.xcassets in Resources */,
+				9C93ACA190B3FAB4F69A4154 /* GoogleService-Info.plist in Resources */,
 				A0F217796E13779A5015D70F /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,16 +531,24 @@
 			files = (
 				4B3631339C2D5D61B988474B /* ActionPackScreen.swift in Sources */,
 				19CA0A9A5D0F5B121D12C89B /* ActiveStepScreen.swift in Sources */,
+				8FE9AEBC6202AA87AB0096DA /* AnalyticsBootstrap.swift in Sources */,
+				F4725CB3D102EC5BC82B97C3 /* AnalyticsCoordinator.swift in Sources */,
+				2851AAB73E296C373878297C /* AnalyticsDependency.swift in Sources */,
+				F868F62D68FA5B1E4962C20A /* AnalyticsTracker.swift in Sources */,
 				A47E859C16A4A3355031C093 /* AppBackground.swift in Sources */,
 				9262971756863774B3E24229 /* AppDependencies.swift in Sources */,
 				557250A52C9E8416F2C911C5 /* AppTheme.swift in Sources */,
 				CA1E7A24620420514362B397 /* BranchMapScreen.swift in Sources */,
 				4DE722CB1105F10808B7A0C7 /* CurbSenseApp.swift in Sources */,
 				BF8A50983140F8CCB7B843F6 /* CurbSenseStore.swift in Sources */,
+				465EEDAE8C17CF8E9B9B2B59 /* CurbSenseWarmupView.swift in Sources */,
 				E725DAF4F9387C4D154A2765 /* DomainTypes.swift in Sources */,
 				C8E5C3FF525B9FC6EC805416 /* DuplicateTitleScreen.swift in Sources */,
 				8FD2AB78DF90E2C746264F38 /* Engines.swift in Sources */,
+				77FB280D1E245D61A93402DE /* ExperimentWebView.swift in Sources */,
+				3D55FF91134868A1AFC0AB75 /* ExperimentWebViewWrapper.swift in Sources */,
 				C07EF01423AFE06796131AD3 /* HistoryDetailScreen.swift in Sources */,
+				96DF0BB20464183DFC878DD3 /* InstallAttribution.swift in Sources */,
 				25A930D2FE8339B1EF01B848 /* Legal.swift in Sources */,
 				2A269BD3E6D665FD2664D277 /* NavigationIntegrator.swift in Sources */,
 				DC36F2D88503B1C303313EC6 /* Node.swift in Sources */,
@@ -421,6 +559,7 @@
 				8DF255D5B1BE019FDDB09B53 /* Providers.swift in Sources */,
 				FB22AAF7ABB66764F99BBF57 /* RecoveryLibraryScreen.swift in Sources */,
 				7B55051061C7434EF3C656AB /* RootTabView.swift in Sources */,
+				C4479653C788E09F48BB6453 /* RootView.swift in Sources */,
 				AA8B3526C3B93E102C45D31D /* Routes.swift in Sources */,
 				CD66FD61BB7823AAAFADD0E3 /* RunHistoryScreen.swift in Sources */,
 				851BE773A13D02CA46BAB587 /* RunSession.swift in Sources */,
@@ -429,7 +568,16 @@
 				06147AE4AABC235F564E4B22 /* RunbookDetailScreen.swift in Sources */,
 				514212AFB4C36E9909C52419 /* SeedData.swift in Sources */,
 				FCE23E0D3E7A69CB01807B58 /* SettingsScreen.swift in Sources */,
+				29C5EC7E9F412EAECBD7E9E4 /* StartupRouter.swift in Sources */,
 				B97F5827B60633F5BAFE4FB9 /* VerdictScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA1289CE1877CB007BB38D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8CEF6B706D8860E7303942 /* StartupRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +588,11 @@
 			isa = PBXTargetDependency;
 			target = 1B26E390730A43ED1FF06B09 /* CurbSense */;
 			targetProxy = 75C1C906314CD7573D7AEA90 /* PBXContainerItemProxy */;
+		};
+		3199421F68F064D534BF7138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B26E390730A43ED1FF06B09 /* CurbSense */;
+			targetProxy = 98E31A04831F25821A54F673 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -641,6 +794,29 @@
 			};
 			name = Debug;
 		};
+		6974697EF8761E876217F079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense.tests;
+				PRODUCT_MODULE_NAME = CurbSenseTests;
+				PRODUCT_NAME = CurbSenseTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurbSense.app/CurbSense";
+				TEST_TARGET_NAME = CurbSense;
+			};
+			name = Release;
+		};
 		A3E82114C610C57B710E2033 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -662,6 +838,29 @@
 				TEST_TARGET_NAME = CurbSense;
 			};
 			name = Release;
+		};
+		C6D61D4307B8BDE53BED0F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 99R57RR8H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.margleun.curbsense.tests;
+				PRODUCT_MODULE_NAME = CurbSenseTests;
+				PRODUCT_NAME = CurbSenseTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurbSense.app/CurbSense";
+				TEST_TARGET_NAME = CurbSense;
+			};
+			name = Debug;
 		};
 		F6D540B6D782D204D58FDB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -706,6 +905,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		748A14CD2C8557BE64F2F173 /* Build configuration list for PBXNativeTarget "CurbSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6D61D4307B8BDE53BED0F0D /* Debug */,
+				6974697EF8761E876217F079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		9B84DCB8C9EB0742CD7683C1 /* Build configuration list for PBXNativeTarget "CurbSense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -716,6 +924,43 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16BDDE5699125DC0E6FE3C3E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		277D6B8485BA815703B634FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D86FF576B3EA86D51A1BD79 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16BDDE5699125DC0E6FE3C3E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5231D498DE48D28E204843D6 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 277D6B8485BA815703B634FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		65E09BDDEC48BA14267A106E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 277D6B8485BA815703B634FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 971035E8F06049ECC17E3E35 /* Project object */;
 }

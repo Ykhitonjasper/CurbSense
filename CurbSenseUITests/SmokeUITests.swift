@@ -13,6 +13,7 @@ final class SmokeUITests: XCTestCase {
     override func setUp() {
         continueAfterFailure = false
         app = XCUIApplication()
+        app.launchArguments.append("UI-Testing")
         app.launch()
     }
 
