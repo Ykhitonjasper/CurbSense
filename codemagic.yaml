@@ -1,10 +1,10 @@
 # Copy to AppRoot/codemagic.yaml and fill XCODE_* / BUNDLE_ID.
-# Policy: build + sign IPA only. No ASC publishing of metadata/screenshots/submit.
-# Human uploads IPA (Transporter) and fills listing / keys in ASC by hand.
+# Policy: build + sign + upload IPA to ASC. No metadata/screenshots/submit.
+# Human picks the build in ASC and fills listing / keys by hand.
 
 workflows:
   app-store-release:
-    name: App Store Build (IPA only)
+    name: App Store Build (upload IPA)
     max_build_duration: 120
     instance_type: mac_mini_m2
 
@@ -85,5 +85,12 @@ workflows:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
 
-    # Do NOT add publishing.app_store_connect here.
-    # No submit_to_app_store / no auto screenshots / no version copy push.
+    publishing:
+      app_store_connect:
+        # Uploads IPA so the build appears in ASC / TestFlight and can be selected.
+        # Does not submit for review or touch listing metadata.
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: false
+        submit_to_app_store: false
