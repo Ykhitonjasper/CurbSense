@@ -9,8 +9,8 @@ struct AppDependencies {
     let localState: any LocalStateRepository
     let traversal: any RunbookTraversing
     let formatter: any ActionPackFormatting
-    let analyticsCoordinator: AnalyticsCoordinating
-    let analyticsSession: AnalyticsSessionProviding
+    let appClient: AppClientType
+    let appSession: AppSessionType
 
     init(
         runbooks: any RunbookRepository,
@@ -21,8 +21,8 @@ struct AppDependencies {
         localState: any LocalStateRepository,
         traversal: any RunbookTraversing,
         formatter: any ActionPackFormatting,
-        analyticsCoordinator: AnalyticsCoordinating = AnalyticsCoordinator.shared,
-        analyticsSession: AnalyticsSessionProviding = AnalyticsSession.shared
+        appClient: AppClientType? = nil,
+        appSession: AppSessionType = AppSession.shared
     ) {
         self.runbooks = runbooks
         self.sessions = sessions
@@ -32,8 +32,8 @@ struct AppDependencies {
         self.localState = localState
         self.traversal = traversal
         self.formatter = formatter
-        self.analyticsCoordinator = analyticsCoordinator
-        self.analyticsSession = analyticsSession
+        self.appSession = appSession
+        self.appClient = appClient ?? AppClient(session: appSession)
     }
 
     static func preview() -> AppDependencies {

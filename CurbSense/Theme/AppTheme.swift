@@ -9,6 +9,7 @@ enum AppTheme {
     static let textMono = Color("TextMono")
     static let danger = Color("Danger")
     static let hairline = Color("Hairline")
+    static var backgroundGlow: Color { accent.opacity(0.28) }
 
     static var displayName: String {
         let display = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String

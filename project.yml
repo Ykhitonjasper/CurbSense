@@ -8,11 +8,7 @@ options:
 
 packages:
   Alamofire:
-    url: https://github.com/Alamofire/Alamofire.git
-    from: 5.9.1
-  Firebase:
-    url: https://github.com/firebase/firebase-ios-sdk.git
-    from: 10.22.0
+    path: Vendor/Alamofire
 
 settings:
   base:
@@ -22,7 +18,7 @@ settings:
     GENERATE_INFOPLIST_FILE: YES
     INFOPLIST_FILE: CurbSense/Info.plist
     MARKETING_VERSION: "1.0.0"
-    CURRENT_PROJECT_VERSION: "2"
+    CURRENT_PROJECT_VERSION: "3"
     PRODUCT_BUNDLE_IDENTIFIER: com.margleun.curbsense
     PRODUCT_NAME: CurbSense
     DEVELOPMENT_TEAM: "99R57RR8H2"
@@ -38,16 +34,12 @@ targets:
       - path: CurbSense
         excludes:
           - Info.plist
+          - GoogleService-Info.plist
     resources:
       - path: CurbSense/Assets.xcassets
       - path: CurbSense/PrivacyInfo.xcprivacy
-      - path: CurbSense/GoogleService-Info.plist
     dependencies:
       - package: Alamofire
-      - package: Firebase
-        product: FirebaseRemoteConfig
-      - package: Firebase
-        product: FirebaseAnalytics
       - sdk: AdServices.framework
     settings:
       base:
@@ -63,7 +55,6 @@ targets:
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
         SUPPORTS_MACCATALYST: NO
         INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
         INFOPLIST_KEY_UIRequiresFullScreen: YES
   CurbSenseUITests:

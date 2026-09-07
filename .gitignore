@@ -25,6 +25,10 @@ AuthKey_*.p8
 
 # Cloudflare Pages local cache
 .wrangler/
+Worker/
+
+# Unused Firebase leftover — do not ship
+**/GoogleService-Info.plist
 
 # Pipeline artifacts (stay out of the App Store git)
 OUTPUTS/
